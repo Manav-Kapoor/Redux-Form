@@ -1,0 +1,47 @@
+.background{
+    height: 100vh;
+    background-image: linear-gradient(#4568DC, #B06AB3);
+    margin: 0;
+    padding: 0;
+}
+.form{
+    width: 35%;
+    height: 80%;
+    border-radius: 5%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+}
+.form-head{
+    font-weight: normal;
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+}
+.form-field{
+    width: 100%;
+    margin: 0;
+}
+.row{
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.clear{
+    display: none;
+}
+.show{
+    display: block;
+}
+.form-div{
+    margin: 40px 0;
+}
+
+@media screen and (max-width: 1000px){
+    .form{
+        width: 70%;
+    }
+}
